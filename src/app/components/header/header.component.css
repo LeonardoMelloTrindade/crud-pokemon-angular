@@ -1,0 +1,17 @@
+/* ID */
+
+#head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(193, 196, 32);
+    height: 150px;
+}
+
+/* TAGS */
+
+h1 {
+    color: rgb(87, 32, 139);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+}
