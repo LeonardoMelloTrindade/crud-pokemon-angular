@@ -1,0 +1,19 @@
+/* TAG */
+
+main {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* CLASS */
+
+.void-pokemon {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-pokemon {
+    width: 50%;
+    margin: auto;
+}

@@ -1,1 +1,15 @@
+<main>
+  <section
+    *ngIf="pokemon.length !== 0; else voidPokemon"
+    id="table-pokemon"
+  >
+  <app-card-pokemon ></app-card-pokemon>
+</section>
 
+  <ng-template #voidPokemon>
+    <article class="void-pokemon">
+      <h3>Nenhum Pokemon encontrado.</h3>
+      <button class="add-pokemon">Adicionar pokemon</button>
+    </article>
+  </ng-template>
+</main>
