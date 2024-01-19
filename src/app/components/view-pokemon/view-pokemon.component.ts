@@ -12,6 +12,6 @@ import { CardPokemonComponent } from '../card-pokemon/card-pokemon.component';
 })
 export class ViewPokemonComponent {
 
-  pokemon = [1]
+  pokemon = [1];
 
 }
