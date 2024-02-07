@@ -2,15 +2,16 @@
   <section
     *ngIf="pokemon.length !== 0; else voidPokemon"
     id="table-pokemon"
+    ngFor=""
   >
-  <app-card-pokemon></app-card-pokemon>
+  
   <app-card-pokemon></app-card-pokemon>
 </section>
 
   <ng-template #voidPokemon>
     <article class="void-pokemon">
       <h3>Nenhum Pokemon encontrado.</h3>
-      <button class="add-pokemon">Adicionar pokemon</button>
+      <a class="add-pokemon" href="create">Adicionar pokemon</a>
     </article>
   </ng-template>
 </main>

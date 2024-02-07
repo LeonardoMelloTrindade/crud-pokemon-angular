@@ -11,7 +11,7 @@ import { PokeApiService } from '../../services/poke-api.service';
   styleUrl: './view-pokemon.component.css',
 })
 export class ViewPokemonComponent {
-  pokemon = [1];
+  pokemon = [];
   @Input() dataPokemon: any = '';
 
   constructor(public pokeApi: PokeApiService) {}

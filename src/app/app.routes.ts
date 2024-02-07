@@ -4,6 +4,6 @@ import { CreatePokemonComponent } from './pages/create-pokemon/create-pokemon.co
 import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
-    {path: "home", component: AppComponent},
-    {path: "home/create", component: CreatePokemonComponent}
+    {path: "", component: AppComponent},
+    {path: "create", component: CreatePokemonComponent}
 ];
