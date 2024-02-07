@@ -1,11 +1,9 @@
-import { Component } from '@angular/core';
+import { Component,  } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './components/header/header.component';
 import { ViewPokemonComponent } from './components/view-pokemon/view-pokemon.component';
-import { HttpClientModule } from '@angular/common/http';
-
-
 
 @Component({
   selector: 'app-root',
@@ -16,4 +14,5 @@ import { HttpClientModule } from '@angular/common/http';
 })
 export class AppComponent {
   title = 'crud-pokemon-angular';
+  dataPokemon: any;
 }

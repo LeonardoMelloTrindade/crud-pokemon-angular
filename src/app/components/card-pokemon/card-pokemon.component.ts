@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
   templateUrl: './card-pokemon.component.html',
   styleUrl: './card-pokemon.component.css',
 })
-export class CardPokemonComponent {}
+export class CardPokemonComponent {
+
+  dataPokemons: any;
+
+}
